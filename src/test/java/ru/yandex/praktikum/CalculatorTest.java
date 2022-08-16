@@ -8,7 +8,7 @@ public class CalculatorTest {
     @Test
     public void sum() {
         Calculator calc = new Calculator();
-        int ar = calc.sum(1, 2);
+        int ar = calc.sum(1, 3);
         int er = 3;
         assertEquals("Результат вычеслений неверен", er, ar);
     }
